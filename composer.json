@@ -1,0 +1,29 @@
+{
+    "name": "linran/wechat",
+    "authors": [
+        {
+            "name": "linr an2017",
+            "email": "185942047@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha":"1.*",
+        "curl/curl": "^1.7"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php",
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
